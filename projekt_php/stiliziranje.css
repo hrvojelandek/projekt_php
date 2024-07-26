@@ -1,0 +1,58 @@
+body{
+	margin:4px;
+	display:flex;
+	min-height:100 vh;
+	flex-direction:column;
+	font-family:Verdana;
+	font-size:large;
+	padding: 15px;
+}
+
+.navigacija{
+	background-color:light-gray;
+	border-bottom:1px; 
+	font:gray solid;
+	height:40px;
+	flex-direction:row;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}	
+
+
+
+a:link{
+	color:black;
+	text-decoration:none; 
+	transition: all 0.3s;
+	}
+	
+a:hover{
+	background-color:gray;
+	color:white;
+}
+	
+table {
+	margin-top:5px;
+	border-bottom:1pt solid silver;
+	border-top:1pt solid silver;
+	border-collapse:collapse;
+	border-spacing:0;
+	width:90%;
+}
+
+th {
+	background-color:#DDDDDD;
+	border-bottom:1pt solid #CCCCCC;
+	text-align:center;
+}
+
+td {
+	border-bottom:1pt dotted #CCCCCC;
+	padding:2px;
+}
+
+.zaglavlje_komentara_znanstvenika {
+	background-color: lightgrey;
+	color: blue;
+}
